@@ -35,8 +35,6 @@ let e = new Event()
 e.add('readFn', readFn)
 
 fs.readFile('./mock.txt', (err, data) => {
-
     if (err) return
-
     e.emit('readFn', null, data)
 })

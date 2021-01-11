@@ -40,7 +40,7 @@ let observerable = create(observer => {
 
 const subject = {
     next: value => {
-        console.log( value)
+        console.log(value)
     },
     complete: console.log,
     error: console.log
