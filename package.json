@@ -1,7 +1,6 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +13,19 @@
     "nodejieba": "^2.5.1"
   },
   "dependencies": {
-    "node-pre-gyp": "^0.17.0"
-  }
+    "globby": "^11.0.2",
+    "koa": "^2.13.1",
+    "koa-useragent": "^4.0.0",
+    "node-pre-gyp": "^0.17.0",
+    "util": "^0.12.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlxg/node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlxg/node/issues"
+  },
+  "homepage": "https://github.com/mlxg/node#readme",
+  "description": ""
 }
